@@ -1,0 +1,100 @@
+body {
+  background-color: lightseagreen;
+  max-width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 48px;
+  text-decoration: underline;
+  text-decoration-color: aquamarine;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: dotted underline;
+  text-decoration-color: cornflowerblue;
+  text-decoration-skip-ink: none;
+  width: fit-content;
+  margin: 16px auto;
+}
+
+h2:hover {
+  text-decoration-color: red;
+  cursor: pointer;
+}
+
+p {
+  color: beige;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+img {
+  max-width: 95%;
+  margin-left: 2.5%;
+  text-align: center;
+  max-height: auto;
+  border: solid 2px lightseagreen;
+}
+
+img:hover {
+  border: solid 2px red;
+  cursor: crosshair;
+}
+
+#course-image {
+  box-shadow: 0px 2px 8px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:active {
+  color: orangered;
+}
+
+.second {
+  color: purple;
+  margin: 0px;
+  margin-top: 24px;
+}
+
+form {
+  margin-top: 48px;
+  background-color: rgb(27, 151, 110);
+  border: 5px solid #444;
+}
+
+form h2 {
+  color: beige;
+  text-decoration: none;
+}
+
+#form {
+  width: 35%;
+  margin: 0 auto;
+  padding-left: 50px;
+  margin-bottom: 24px;
+}
+
+button {
+  text-align: center;
+  margin-left: 24px;
+}
+
+input,
+button {
+  font-size: 16px;
+}
